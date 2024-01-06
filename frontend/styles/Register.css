@@ -1,0 +1,40 @@
+.register {
+  width: 500px;
+  margin: 50px auto;
+  padding: 50px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 20px;
+}
+
+/* .register input,
+.register .ant-input-affix-wrapper {
+  border-radius: 20px;
+} */
+
+.register input:focus,
+.register .ant-input-affix-wrapper:focus {
+  border-color: #ff69b4;
+  box-shadow: 0 0 0 2px rgba(255, 105, 180, 0.2);
+  outline: none;
+}
+
+.register-btn {
+  width: 100%;
+  background: #ff69b4;
+  border-color: #ff69b4;
+  color: white;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.register-btn:hover {
+  background: #da0c81;
+  border-color: #ff85c0;
+}
+
+.register-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 105, 180, 0.5);
+}

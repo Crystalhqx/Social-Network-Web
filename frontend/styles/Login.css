@@ -1,0 +1,47 @@
+.login-form {
+  width: 450px;
+  margin: 50px auto;
+  padding: 50px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 20px;
+}
+
+/* .login-form .ant-input-affix-wrapper {
+  border-radius: 20px;
+} */
+
+.login-form input:focus,
+.login-form .ant-input-affix-wrapper:focus {
+  border-color: #ff69b4;
+  box-shadow: 0 0 0 2px rgba(255, 105, 180, 0.2);
+  outline: none;
+}
+
+.login-form-button {
+  width: 100%;
+  background: #ff69b4;
+  border-color: #ff69b4;
+  color: white;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.login-form-button:hover {
+  background: #da0c81;
+  border-color: #ff85c0;
+}
+
+.login-form-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 105, 180, 0.5);
+}
+
+.login-form a {
+  color: #ff69b4;
+}
+
+.login-form a:hover {
+  color: #ff85c0;
+}

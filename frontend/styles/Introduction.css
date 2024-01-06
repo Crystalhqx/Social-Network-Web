@@ -1,0 +1,50 @@
+.intro-section {
+  display: flex;
+
+  padding: 50px;
+  margin-top: 60px;
+  margin-left: 120px;
+  margin-right: 120px;
+  gap: 60px;
+}
+
+.intro-text {
+  flex: 1;
+  text-align: left;
+}
+
+.intro-heading {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.intro-subtitle {
+  font-size: 1.4em;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.intro-discover-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.intro-discover-button:hover {
+  background-color: #da0c81;
+}
+
+.intro-illustration {
+  width: 40%;
+  height: auto;
+  max-width: 600px;
+  object-fit: contain;
+}

@@ -1,0 +1,26 @@
+.home {
+  margin: 0;
+  padding: 0px 60px;
+  background-color: #fff;
+}
+
+.ant-tabs-nav {
+  margin: 0;
+}
+
+.photo-gallery img {
+  max-height: 900px;
+  object-fit: cover;
+}
+
+.video-block video {
+  height: auto;
+  max-height: 400px;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.create-post-button {
+  margin-top: 20px;
+}

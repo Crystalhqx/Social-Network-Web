@@ -1,0 +1,31 @@
+.search-bar {
+  width: 550px;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.error-msg {
+  height: 22px;
+  color: #ff4d4f;
+  margin-top: 4px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.search-bar .ant-input-search {
+  border-radius: 20px;
+}
+
+.search-bar .ant-input-search-button {
+  border-radius: 20px;
+  background-color: #ff69b4;
+  color: white;
+  border-color: #ff69b4;
+}
+
+.search-bar .ant-input-search-button:hover {
+  background-color: #ff85c0;
+  color: white;
+}
