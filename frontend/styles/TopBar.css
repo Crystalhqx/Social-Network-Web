@@ -1,0 +1,51 @@
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: #333;
+  padding: 0 25px;
+  height: 80px;
+}
+
+.App-logo {
+  height: 100px;
+  cursor: pointer;
+}
+
+.logout {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ff69b4;
+}
+
+.auth-buttons {
+  display: flex;
+}
+
+.login-button,
+.signup-button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid #ff69b4;
+}
+
+.login-button {
+  background-color: transparent;
+  color: #ff69b4;
+}
+
+.signup-button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+}
+
+.login-button:hover,
+.signup-button:hover {
+  background-color: #da0c81;
+  color: white;
+}
